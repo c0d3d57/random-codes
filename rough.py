@@ -4,7 +4,7 @@ year = 2014
 myyear = raw_input("Enter your birth year: ")
 total_year = int(year) % int(myyear)
 
-if total_year <= 18:
+if total_year < 18:
 	print "You are not eligible to use this program!"
 
 else:
