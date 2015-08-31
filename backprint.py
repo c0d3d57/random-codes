@@ -20,7 +20,7 @@ def mes():
 	while i >= 0:
 		translated = translated + message[i]
 		i = i - 1
-		# Wer store our outputs in an array in order not to get a wrong result.
+		# We store our outputs in a list in order not to get a wrong result.
 		trans.append(translated)
 	
 	print(translated)
